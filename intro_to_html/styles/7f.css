@@ -1,0 +1,32 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.input_email{
+    width: 370px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 2px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.label{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.agreement_note{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn_agree{
+    width: 370px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    background-color: #08529b;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
