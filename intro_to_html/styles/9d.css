@@ -1,0 +1,28 @@
+.music_dev {
+    display: inline-block;
+    background-color: rgb(39, 33, 33);
+    
+
+}
+
+.title {
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+
+}
+
+.text {
+    margin: 0;
+    color: rgb(161, 144, 144);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+}
+
