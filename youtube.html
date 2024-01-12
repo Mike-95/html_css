@@ -3,60 +3,67 @@
 
 <head>
   <title>YouTube.com Clone</title>
-  <style>
-    .search-bar {
-      font-size: 20px;
-    }
+  <link rel="stylesheet" href="/intro_to_html/styles/youtube.css">
 
-    .thumbnail {
-      width: 300px;
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+    rel="stylesheet">
 
-    }
-
-    .video-preview {
-      width: 300px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 15px;
-    }
-  </style>
 </head>
 
 <body>
   <input class="search-bar" type="text" placeholder="Search">
 
+
   <div class="video-preview">
-    <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+    </div>
+    <div class="channel-picture">
+      <img class="profile-picture" src="/thumbnails/channel-1.jpeg">
+    </div>
 
-    <p class="video-author">k
-      Marques Brownlee &#10003;
-    </p>
+    <div class="video-info">
+      <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!</p>
 
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
+      <p class="video-author">
+        Marques Brownlee
+      </p>
 
+      <p class="video-stats">
+        3.4M views &#183; 6 months ago
+      </p>
+    </div>
+  </div>
   </div>
 
   <div class="video-preview">
-    <img class="thumbnail" src="/thumbnails/youtube_image2.jpeg">
-    <p class="video-title">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="/thumbnails/youtube_image2.jpeg">
+    </div>
+    <div class="channel-picture">
+      <img class="profile-picture" src="/thumbnails/channel-2.jpeg">
+    </div>
 
-      Try Not To Laugh Challenge #9
+    <div class="video-info">
+      <p class="video-title">
+        Talking Tech and AI with Google CEO Sundar Pichai!</p>
 
-    </p>
+      <p class="video-author">
+        Markiplier
+      </p>
 
-    <p class="video-author">
-      Markiplier &#10003;
-    </p>
-
-    <p class="video-stats">
-      19M views &#183; 4 years ago
-    </p>
-
+      <p class="video-stats">
+        19M views &#183; 4 months ago
+      </p>
+    </div>
   </div>
+  </div>
+
+ 
 
 </body>
 
