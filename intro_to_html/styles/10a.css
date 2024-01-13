@@ -1,0 +1,65 @@
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+
+.profile {
+    width: 400px;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+   
+}
+
+.profile-pic {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.cat-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.type{
+    
+    vertical-align: middle;
+    margin-bottom: 10px;
+   
+}
+
+.quality{
+   
+    
+}
+
+.follow-btn{
+    display: inline-block;
+    margin-left: 183px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
