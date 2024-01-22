@@ -3,23 +3,73 @@
 
 <head>
   <title>YouTube.com Clone</title>
-  <link rel="stylesheet" href="/intro_to_html/styles/youtube.css">
+  <link rel="stylesheet" href="/intro_to_html/styles/youtube/general.css">
+  <link rel="stylesheet" href="/intro_to_html/styles/youtube/header.css">
+  <link rel="stylesheet" href="/intro_to_html/styles/youtube/video.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
     rel="stylesheet">
-
 </head>
 
 <body>
-  <input class="search-bar" type="text" placeholder="Search">
+
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="/intro_to_html/icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="/intro_to_html/icons/youtube-logo.svg">
+    </div>
+    <div class="center-section">
+      <input class="search-bar" type="text" placeholder="Search">
+
+      <button class="search-button">
+        <img class="search-icon" src="/intro_to_html/icons/search.svg">
+      </button>
+
+      <button class="voice-search-icon">
+        <img class="search-voice" src="/intro_to_html/icons/voice-search-icon.svg">
+      </button>
+    </div>
+
+
+    <div class="right-section">
+      <button class="upload-btn">
+        <img class="upload" src="/intro_to_html/icons/upload.svg">
+      </button>
+      <button class="youtube-btn">
+        <img class="youtube-app" src="/intro_to_html/icons/youtube-apps.svg">
+      </button>
+
+      <div class="notifi-btn-container">
+        <button class="notifi-btn">
+          <img class="notification" src="/intro_to_html/icons/notifications.svg">
+          <div class="notifi-count">3</div>
+        </button>
+      </div>
+
+      <button class="channel-btn">
+        <img class="channel" src="/thumbnails/my-channel.jpeg">
+      </button>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div>
+    <div class="sidebar-link"></div>
+  </div>
+
 
   <div class="video-grid">
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-1.webp">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -41,6 +91,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/youtube_image2.jpeg">
+        <div class="video-time">8:22</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -65,6 +116,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-3.webp">
+        <div class="video-time">9:13</div>
       </div>
 
       <div class="video-info-grid">
@@ -90,6 +142,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-4.webp">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -114,6 +167,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-6.webp">
+        <div class="video-time">14:20</div>
       </div>
 
       <div class="video-info-grid">
@@ -139,6 +193,7 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-5.webp">
+        <div class="video-time">14:20</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">

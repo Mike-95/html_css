@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flexbox {
+            display: flex;
+            height: 55px;
+            margin-bottom: 20px;
+        }
+
+        .column1 {
+            background-color: lightpink;
+            align-items: center;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        .column2 {
+            background-color: lightblue;
+            width: 200px;
+
+
+        }
+
+        .item1 {
+            background-color: black;
+            display: flex;
+            color: white;
+
+
+        }
+
+        .row {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .row21{
+            background-color: black;
+            color: white;
+        }
+        .row22{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="column1">
+            <div class="item1">item1</div>
+        </div>
+        <div class="column2">
+            <div></div>
+        </div>
+    </div>
+
+
+    <div class="flexbox">
+        <div class="column1">
+        </div>
+        <div class="column2">
+            <div class="item12">item1</div>
+            <div class="row">
+                <div class="row21">row2</div>
+                <div class="row22">row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
